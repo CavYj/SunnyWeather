@@ -9,6 +9,9 @@ import android.view.View;
 import com.sunnyweather.android.databinding.ActivityMainBinding;
 import com.sunnyweather.android.databinding.ActivityRxjavaBinding;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
@@ -125,3 +128,4 @@ public class RxjavaActivity extends AppCompatActivity {
     }
 
 }
+

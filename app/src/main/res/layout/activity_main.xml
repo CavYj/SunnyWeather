@@ -40,6 +40,12 @@
         android:layout_height="wrap_content"
         android:text="Rxjava" />
 
+    <Button
+        android:id="@+id/btn_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"

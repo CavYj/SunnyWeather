@@ -65,6 +65,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
             }
         });
+        //net
+        binding.btnNet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, NetActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
